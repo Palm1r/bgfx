@@ -132,6 +132,8 @@ namespace bgfx
 		, uint64_t _flags = BGFX_TEXTURE_NONE|BGFX_SAMPLER_NONE
 		);
 
+	uintptr_t getInternal(TextureHandle _handle);
+
 } // namespace bgfx
 
 #endif // BGFX_PLATFORM_H_HEADER_GUARD
